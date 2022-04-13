@@ -1,0 +1,61 @@
+th
+{
+  background: pink;
+  height:50px;
+
+}
+table,th,td
+{
+  border:2px solid green;
+}
+
+  
+  
+table {
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    table-layout: fixed;
+    color:black;
+    border-collapse: separate;
+}
+
+  body
+{
+    counter-reset: Serial;      
+    text-shadow: .2px .3px;
+    text-align: center;
+}
+
+
+
+tbody tr td:first-child:before
+{
+  counter-increment: Serial;      /* Increment the Serial counter */
+  content: counter(Serial); /* Display the counter */
+}
+
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+   
+    
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
