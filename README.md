@@ -2,8 +2,6 @@
 assignment1-cloud vadana
 
 Hosted Link: https://badhira.github.io/Table/
-
-
 a.Table
 
 i. Create an HTML table with 5 columns and 5 rows, with a header row and the first column as SL.No.
